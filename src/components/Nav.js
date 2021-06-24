@@ -10,11 +10,6 @@ class Nav extends Component {
     return (
       <React.Fragment>
 
-
-
-
-
-
         <nav className="navbar navbar-dark  nav justify-content-end" style={{ backgroundColor: '#fdf300' }}>
           <p style={{ position: 'relative', right: '400px' }}><NavLink style={{ color: 'black' }} to='/'><i className="fas fa-chevron-left"></i></NavLink> Valentine's Day Offers! Buy Two Get One Free <NavLink style={{ color: 'black', fontWeight: 'bold' }} to='/'>Shop Now </NavLink> <NavLink style={{ color: 'black' }} to='/'><i className="fas fa-chevron-right"></i></NavLink></p>
           <span className="logo">

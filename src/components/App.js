@@ -59,16 +59,16 @@ class App extends Component {
       <React.Fragment>
         <Nav />
         <Search onMenuToggle={this.toggleMenu} items={this.state.items} />
-        
+
         <Nav2 />
 
         <Links />
 
-        
-        
+
+
 
         <Section />
-        
+
 
 
         <AddToCart
@@ -77,7 +77,7 @@ class App extends Component {
           reset={this.reset}
           addItem={this.addItem}
         />
-        
+
         <SimilarProducts />
         <br />
         <br />

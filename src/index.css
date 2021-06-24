@@ -87,7 +87,7 @@ button {
   color: #9400D3;
 }
 
- /* .toggle {
+/* .toggle {
   position: relative;
   left: 1125px;
   bottom: 150px;
@@ -95,18 +95,16 @@ button {
   z-index: 100px;
 }  */
 
-
-.paperboat{
+.paperboat {
   height: 30px;
   width: 30px;
 }
 
-.boat_button{
+.boat_button {
   height: 80px;
   width: 80px;
   position: relative;
-  top:200px;
+  top: 200px;
   right: 300px;
   z-index: 20px !important;
-
 }

@@ -4,12 +4,6 @@ import CartList from './CartList';
 
 const Cart = (props) => {
 
-
-
-
-
-
-
     return (
         <React.Fragment>
             <h1 style={{ color: '#9400D3', position: 'relative' }}>My Cart</h1>
@@ -21,7 +15,7 @@ const Cart = (props) => {
             <button style={{ height: '60px', width: '165px', position: 'relative', backgroundColor: '#fdf300', borderRadius: '50px', fontWeight: 'bold' }}> Review Cart</button>
 
             <button style={{ height: '60px', width: '200px', position: 'relative', backgroundColor: '#9400D3', color: 'white', borderRadius: '50px', fontWeight: 'bold' }}>   Complete Checkout</button>
-           
+
         </React.Fragment>
     )
 

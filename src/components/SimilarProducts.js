@@ -81,15 +81,15 @@ class SimilarProducts extends Component {
                             <span style={{ display: 'inline', fontWeight: 'bold' }}>  4.2 of 5</span>
                         </div>
                         <span style={{ margin: '20px', position: 'relative', top: '14px' }}>From: Egypt</span > <span style={{ margin: '18px', position: 'relative', top: '14px' }}>To: Egypt</span> <span style={{ margin: '18px', position: 'relative', top: '14px' }}>in: 2 Days</span>
-                        
+
                     </div>
 
-    
+
                 </div>
 
-                <div className="progress" style={{height:'5px'}}>
-  <div className="progress-bar"  style={{width:'70%', backgroundColor:'indigo'}} ></div>
-</div>
+                <div className="progress" style={{ height: '5px' }}>
+                    <div className="progress-bar" style={{ width: '70%', backgroundColor: 'indigo' }} ></div>
+                </div>
 
 
 
