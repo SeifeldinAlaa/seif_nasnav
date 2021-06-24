@@ -1,13 +1,112 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.logo {
+  position: relative;
+  right: 1000px;
+}
+
+.footer {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(59, 59, 58);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  overflow: auto;
+  display: flex;
+}
+
+.gallery {
+  margin: 20px;
+  border: 10px solid #DCDCDC;
+  border-radius: 10px;
+  float: left;
+  width: 450px;
+  font-weight: bold;
+  height: 700px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 50%;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.buttonInInput {
+  background-color: #fff;
+  border-radius: 55px;
+  padding: 5px;
+  width: 215%;
+  height: 60px;
+  position: relative;
+  top: 30px;
+  margin-top: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 0;
+  text-decoration: none;
+  color: purple;
+}
+
+button {
+  width: 25%;
+  background-color: yellow;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 25px;
+  font-size: 1vw;
+}
+
+::placeholder {
+  color: #9400D3;
+}
+
+ /* .toggle {
+  position: relative;
+  left: 1125px;
+  bottom: 150px;
+  width: 15%;
+  z-index: 100px;
+}  */
+
+
+.paperboat{
+  height: 30px;
+  width: 30px;
+}
+
+.boat_button{
+  height: 80px;
+  width: 80px;
+  position: relative;
+  top:200px;
+  right: 300px;
+  z-index: 20px !important;
+
 }
