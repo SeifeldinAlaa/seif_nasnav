@@ -33,10 +33,12 @@ class Search extends Component {
 
         </nav>
         <div >
-          <img alt='adidas' src={`${process.env.PUBLIC_URL}/images/adidas.png`} style={{ height: '150px', width: '170px', position: 'relative', bottom: '90px', left: '800px' }} />
+
+          <img alt='adidas' src={`${process.env.PUBLIC_URL}/images/adidas.png`} style={{ height: '150px', width: '170px', position: 'relative', bottom: '90px', left: '700px' }} />
           <img alt='yeshtery_yellow' src={`${process.env.PUBLIC_URL}/images/yeshtery_yellow.PNG`} style={{ height: '50px', width: '130px', position: 'relative', bottom: '156px', left: '160px' }} />
           <SideBar items={this.props.items} />
           <ul className="nav justify-content-end" style={{ position: 'relative', bottom: '185px', right: "470px" }}>
+
             <li className="nav-item">
               <SideBar items={this.props.items} />
 
